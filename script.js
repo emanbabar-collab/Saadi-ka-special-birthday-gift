@@ -1,0 +1,1 @@
+javascript let clicks = 0; document.addEventListener("DOMContentLoaded", () => { const hearts = document.getElementById("hearts"); if (hearts) { hearts.addEventListener("click", () => { clicks++; if (clicks >= 5) { window.location.href = "final.html"; } }); } })

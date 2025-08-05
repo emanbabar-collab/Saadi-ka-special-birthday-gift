@@ -1,0 +1,8 @@
+body { margin: 0; font-family: 'Poppins', sans-serif; text-align: center; color: white; background-size: cover; background-position: center; background-attachment: fixed; }
+.container { display: flex; flex-direction: column; justify-content: center; align-items: center; height: 100vh; backdrop-filter: brightness(0.6); }
+.box { background: rgba(255, 255, 255, 0.1); padding: 30px; border-radius: 15px; box-shadow: 0 0 15px rgba(255,255,255,0.5); font-size: 2em; animation: fadeIn 2s ease-in-out; }
+.button { margin-top: 20px; padding: 10px 20px; background: pink; border: none; border-radius: 10px; font-size: 1.2em; cursor: pointer; box-shadow: 0 0 10px rgba(255,192,203,0.8); transition: transform 0.3s; }
+.button:hover { transform: scale(1.1); }
+.wishes { max-width: 600px; margin: auto; font-size: 1.3em; line-height: 1.8; }
+@keyframes fadeIn { from { opacity: 0; transform: translateY(-20px); } to { opacity: 1; transform: translateY(0); } }
+.hearts { font-size: 2em; cursor: pointer; }
